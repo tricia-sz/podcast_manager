@@ -1,9 +1,19 @@
 {
   "name": "podcast_manager",
   "version": "1.0.0",
-  "description": "",
+  "description": "Um app estilo netflix, onde possa centralizar diferentes episódios de podcast separados por categorias.",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
+    "dev": "tsx src/server.ts",
+    "start:watch": "tsx watch/server.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run dist && node/server.js",
+
+
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/tricia-sz/podcast_manager/issues"
   },
-  "homepage": "https://github.com/tricia-sz/podcast_manager#readme"
+  "homepage": "https://github.com/tricia-sz/podcast_manager#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
 }
