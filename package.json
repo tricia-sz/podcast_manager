@@ -7,13 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "tsx src/server.ts",
-    "start:watch": "tsx watch/server.ts",
+    "dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx --env-file=.env src/server.ts",
     "dist": "tsup src",
     "start:dist": "npm run dist && node/server.js",
-
-
-
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,12 +20,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/tricia-sz/podcast_manager/issues"
   },
   "homepage": "https://github.com/tricia-sz/podcast_manager#readme",
   "devDependencies": {
+    "@types/node": "^26.6.1",
     "tsup": "^8.5.1",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2"
