@@ -15,7 +15,7 @@ Podecasts feitos em videos (youtube)
 ### Feature
  Listae os eps em sessoes de categorias
 ### Como vou implementar:
-  GET: Retorna lista de epsódios
+  GET: Retorna lista de epsódios baseado em um paremetro enviado pelo cliente do nome do podcast
 
 ```js
   [ 
