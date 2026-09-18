@@ -15,7 +15,7 @@ Podecasts feitos em videos (youtube)
 ### Feature
  Listae os eps em sessoes de categorias
 ### Como vou implementar:
-  Retornar em uma api rest o nome do podcast, nome do ep, imagem de capa, link
+  GET: Retorna lista de epsódios
 
 ```js
   [ 
