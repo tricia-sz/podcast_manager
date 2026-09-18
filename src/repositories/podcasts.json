@@ -1,0 +1,27 @@
+  [
+    {
+      "podcastName": "Epifania",
+      "episode": "TODA HISTÓRIA DA FILOSOFIA - Parte 1",
+      "videoId": "Y9_UovLgduo",
+      "categories": ["filosofia", "humor"]
+    },
+    {
+      "podcastName": "Epifania",
+      "episode": "TODA HISTÓRIA DA FILOSOFIA - Parte 2",
+      "videoId": "WEe6L5HVMwk",
+      "categories": ["filosofia", "humor"]
+    },
+    {
+      "podcastName": "Piradigmas",
+      "episode": "Por que você repete padrões tóxicos",
+      "videoId": "GW0ACNknpnA",
+      "categories": ["filosofia", "humor"]
+    },
+    {
+      "podcastName": "TEste",
+      "episode": "TEste",
+      "videoId": "GW0ACNknpn",
+      "categories": ["filosofia", "humor"]
+    }
+    
+  ]

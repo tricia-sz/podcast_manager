@@ -47,4 +47,4 @@ Podecasts feitos em videos (youtube)
   ]
 ```
 
-![arquitetura do projeto](./docs/arch/arquitetura.png)
+![arquitetura do projeto](./docs/arquitetura.png)
