@@ -18,9 +18,15 @@
       "categories": ["filosofia", "humor"]
     },
     {
-      "podcastName": "TEste",
-      "episode": "TEste",
+      "podcastName": "Teste",
+      "episode": "Teste",
       "videoId": "GW0ACNknpn",
+      "categories": ["filosofia", "humor"]
+    },
+    {
+      "podcastName": "Venus",
+      "episode": "Le Guin",
+      "videoId": "GW0ACNknpn2",
       "categories": ["filosofia", "humor"]
     }
     
